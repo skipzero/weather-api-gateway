@@ -6,11 +6,15 @@ const routes = Routes()
 
 const services = [
   {
-    route: 'auth',
-    target: 'https://zerosquadron.com/api/users',
+    route: '/auth',
+    target: 'https://zerosquadron.com/api/createAccount',
   },
   {
-    route: 'weather',
+    route: '/users',
+    target: 'https://zerosquadron.com/api/user'
+  },
+  {
+    route: '/weather',
     target: 'https://zerosquadron.com/api/weather',
   }
 ]
